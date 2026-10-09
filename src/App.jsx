@@ -112,15 +112,24 @@ return (
       through technology.
     </p>
 
-    <div className="hero-actions">
-      <a href="#projects" className="primary-btn">
-        Explore My Work <span>↗</span>
-      </a>
 
-      <a href="#about" className="secondary-btn">
-        More About Me
-      </a>
-    </div>
+<div className="hero-actions">
+  <a href="#projects" className="primary-btn">
+    Explore My Work <span>↗</span>
+  </a>
+
+  <a href="#about" className="secondary-btn">
+    More About Me <span>↗</span>
+  </a>
+
+  <a
+    href="/KAUSHAL_CHOUDHARI.pdf"
+    download="KAUSHAL_CHOUDHARI.pdf"
+    className="secondary-btn"
+  >
+    Download Resume <span>↓</span>
+  </a>
+</div>
 
     <div className="hero-footer">
       <span>JAVA · ANDROID · WEB DEVELOPMENT</span>
@@ -158,6 +167,7 @@ return (
         Explore My Projects <span>↗</span>
       </a>
     </div>
+
 
     <div className="about-details">
       <div className="detail-card">
